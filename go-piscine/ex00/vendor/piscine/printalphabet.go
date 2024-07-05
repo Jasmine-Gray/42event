@@ -2,4 +2,9 @@ package piscine
 
 import "ft"
 
-func
+func PrintAlphabet(){
+  for i := 'a'; i <= 'z'; i++{
+    ft.PrintRune(i)
+  }
+  ft.PrintRune('\n')
+}
