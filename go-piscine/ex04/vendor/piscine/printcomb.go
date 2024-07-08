@@ -13,7 +13,7 @@ func PrintComb(){
 						if !(a == '7' && b == '8' && c == '9'){
 							ft.PrintRune(',')
 							ft.PrintRune(' ')
-						}
+            }
 				}
 			}
 		}
